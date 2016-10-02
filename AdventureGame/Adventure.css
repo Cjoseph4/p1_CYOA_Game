@@ -1,0 +1,78 @@
+@keyframes type{ 
+  from { width: 0; } 
+}
+
+#wrapper {
+height: 1300px;
+background-image: url(http://i.imgur.com/NFc1CXK.jpg);
+background-repeat: no-repeat;
+background-position: center top;
+margin-right: auto;
+margin-bottom: 0px;
+margin-left: auto;
+}
+
+#wrapper2 {
+padding-top: 30px;
+padding-left: 50px;
+text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+opacity: 0.65;
+}
+
+body {
+  background-color: #000000;
+}
+
+h1.hStyle {
+font-family: 'Share Tech Mono', monospace;
+font-weight: bold;
+font-size: 3.25em;
+}
+
+div.nav-tab-wrapper {
+float: right; width: 30%;
+font-size: 1.8em;
+}
+
+div.wrapperP {
+font-family: 'Share Tech Mono', monospace;
+color: #39FF2F;
+list-style-type: none;
+font-size: 2em;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4.5s steps(60, end);
+}
+
+div.nav-tab {
+font-size: 1.2em;
+}
+
+a.navigation {
+  font-family: 'Share Tech Mono', monospace;
+  text-decoration: none;
+}
+
+a.navigation:hover {
+  background-color: #39FF2F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
